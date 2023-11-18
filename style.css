@@ -1,0 +1,145 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: rgba(238, 235, 235, 0.918);
+}
+
+h1 {
+    font-size: 2.8vh;
+}
+
+p {
+    font-size: 2vh;
+}
+
+.cabecalho {
+    height: 14vh;
+    width: 100vw;
+    background-color: yellow;
+
+}
+
+.pesquisa {
+    text-align: center;
+    height: 7vh;
+}
+
+#search {
+    height: 4vh;
+    width: 15vw;
+    margin-top: 1.5vh;
+}
+
+.navbar {
+    text-align: center;
+    margin-bottom: 10vw;
+    height: 7vh;
+    border: solid;
+
+}
+
+.links {
+    height: 4vh;
+    width: 15vw;
+    padding: 0.5vh;
+
+
+}
+
+#links {
+    margin-top: 2.5vh;
+}
+
+.beneficios {
+    background-color: white;
+    height: 12vh;
+    width: 62vw;
+    border-radius: 2vh;
+    margin-left: 40vh;
+    margin-top: 3vh;
+
+}
+
+.pagamento {
+    width: 15vw;
+    height: 12vh;
+    margin-left: 1vh;
+    margin-bottom: 2vh;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right-style: dashed;
+    border-width: 0.4vh;
+    float: left;
+}
+
+.parcelas {
+    width: 15vw;
+    height: 12vh;
+    margin-left: 1vh;
+    margin-bottom: 2vh;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.parcelamento {
+    width: 15vw;
+    height: 12vh;
+    margin-left: 1vh;
+    margin-bottom: 2vh;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.pix {
+    width: 15vw;
+    height: 12vh;
+    margin-left: 1vh;
+    margin-bottom: 2vh;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
