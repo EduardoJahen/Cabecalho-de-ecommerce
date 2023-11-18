@@ -40,7 +40,7 @@ body {
 }
 
 a {
-    color: black;
+    color: rgb(133, 128, 128);
     font-family: 'Fira Sans', sans-serif;
 }
 
@@ -77,7 +77,6 @@ p {
     margin-bottom: 10vw;
     height: 7vh;
     border: so
-
 }
 
 .links {
@@ -86,6 +85,26 @@ p {
     padding: 0.5vh;
 
 
+}
+
+.links:hover {
+    font-size: 2.8vh;
+    padding: 1%;
+    transition-duration: 0.5s;
+    color: black;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #links {
@@ -99,67 +118,43 @@ p {
     border-radius: 1vh;
     margin-left: 40vh;
     margin-top: 3vh;
+    display: flex; /* Adicionado para usar flexbox */
+}
 
+.pagamento, .parcelas, .parcelamento, .pix {
+    flex: 1; /* Distribui o espaço disponível igualmente entre os elementos filhos */
+    height: 12vh;
+    margin-left: 1vh;
+    margin-bottom: 2vh;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pagamento {
-    width: 16vw;
-    height: 13vh;
-    margin-left: 1vh;
-    margin-bottom: 2vh;
-    text-align: justify;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-right-style: dashed;
-    float: left;
 }
 
-
-.parcelas {
-    width: 15vw;
-    height: 12vh;
-    margin-left: 1vh;
-    margin-bottom: 2vh;
-    text-align: justify;
+.marketList{
+    flex: 1;
+    width: 64vw;
+    margin-top: 3vh;
+    margin-left: 40vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    float: left;
+    
 }
 
-.parcelamento {
-    width: 15vw;
-    height: 12vh;
-    margin-left: 1vh;
-    margin-bottom: 2vh;
-    text-align: justify;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    float: left;
+.marketItem{
+    padding: 1.5vh;
+    text-align: center;
+    height: 40vh;
+    width: 120vw;
+    margin-right: 1vw;
+    border-radius: 1vh;
+    background-color: white;
 }
 
-.pix {
-    width: 15vw;
-    height: 12vh;
-    margin-left: 1vh;
-    margin-bottom: 2vh;
-    text-align: justify;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    float: left;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+.textMarket{
+    display: contents;
 }
